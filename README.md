@@ -1,2 +1,2 @@
 # restart
-INfo Viz 3
+Info Viz 3

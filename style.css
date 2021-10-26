@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+} *
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer, main {
+    margin: 20px auto;
+    max-width: 600px;
+    color: white;
+}
+
+header, footer {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+a:link {
+    color: hotpink;
+  }
+  
+
+a:visited {
+    color: green;
+  }
+  
+ 
+a:hover {
+    color: white;
+  }
+  
+a:active {
+    color: blue;
+  }

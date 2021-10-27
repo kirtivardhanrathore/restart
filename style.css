@@ -45,19 +45,38 @@ a:active {
     color: blue;
   }
 
-.column {
-    float: left;
-    width: 33.33%;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
   }
-
-@media screen and (max-width: 600px) {
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+    
+  }
+  
+  .column svg {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
     .column {
-      width: 100%;
+      flex: 50%;
+      max-width: 50%;
     }
   }
-
-@media screen and (max-width: 800px) {
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
     .column {
-      width: 50%;
+      flex: 100%;
+      max-width: 100%;
     }
   }

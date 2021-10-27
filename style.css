@@ -11,7 +11,7 @@ body {
 
 header, footer, main {
     margin: 20px auto;
-    max-width: 600px;
+    max-width: 100%;
     color: white;
 }
 
@@ -43,4 +43,21 @@ a:hover {
   
 a:active {
     color: blue;
+  }
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    .column {
+      width: 50%;
+    }
   }

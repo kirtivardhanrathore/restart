@@ -7,11 +7,20 @@ body {
     color: white;  
   }
   
-  header,
-  main {
-    margin: 0;
+  header
+  {
+    margin: 0-auto;
     padding: 30px;
     color: white;
+    display : block;
+    text-align: center;
+  }
+
+  main {
+    margin: 0-auto;
+    padding: 30px;
+    color: white;
+    display : block;
   }
   
   h1

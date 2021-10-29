@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Kirti Vardhan</title>
+    
+</head>
+
+<body style="background-color: black;">
+    
+    <header>
+        <h1> The Broken Hash </h1>
+        <nav>
+        <a href="DataViz Day 2.html">Data Viz</a>
+        &nbsp &nbsp; &nbsp; &nbsp;
+        <a href="Logo Designs">Viz Review</a> 
+        </nav>
+    </header>
+
+    <main>
+        <h2>Reaching the Center Stage</h2>
+        
+        <img src="main.gif" alt="Lights" style="width:100%">
+
+        <p>
+        A lot of bands that are formed, start because they are interested in music and want to make good music. Alongside making good music it is not too much to ask what are their odds of success and if the odds are in favour how long it will take them to be ‘successful’. Success is subjective, but in this case it will be fine to define success by the number of people they played for in a single event.     
+        </p>
+             
+        <p>
+        We had no answers to the odds or the time frame… until now. 
+        </p>
+        
+        <p>
+        Now that By <a href="https://twitter.com/codenberg">Russell Goldenberg</a> & <a href="https://twitter.com/dkopf">Dan Kopf</a> from <a href="https://pudding.cool/"> The Pudding </a>decided to use their data analytics and representational skills to analyse the data from the popular music event website <a href = "songkick.com">Songkick</a> spread over three years from 2013 - 2016, they have arrived hat how many bands make it big and how long did it take for each of them to reach the centre stage! 
+        </p>
+        
+        <p>
+        This crisp information visualization will help the fledglings to set realistic goals for their future as a band but might be slightly discouraging for their parents, if they find out about the odds their kids are fighting against!    
+        </p>
+
+        <p>
+        They used two different views with common mark of a dot to deliver the information. The first of them is a modified polar coordinate system and the second one is a timeline. The specification of both the views and their encoding can be broken down in the following way.     
+        </p>
+
+        <p>
+        The visual encoding does justice to the data they had for the bands that were successful even before coming to US, at least they could have included the date of their first show. This missing information would have painted a slightly more realistic picture.  
+        </p>
+
+        <p>
+            The form of the visualization makes me realise that the band culture in US is extremely crowded. Music enthusiasts have a lot to choose from. But as we scroll down, the size of event increases but we see an exponential reduction in the number of bands until the crowd reached 7000+ only 21 of them remain. The flow of the viz is very smooth and there are adequate movements that are keeping the curiosity of the reader intact.     
+        </p>
+
+
+        <p>
+            It is also important to mention that designers have taken due diligence in reverse scrolling. The way the bands (dots) fall back in line is very aesthetically pleasing. I am myself guilty of looking at the animation for at least a 100 times. 
+        </p>
+        <img src="reverse.gif" alt="Lights" style="width:100%">
+        <p>
+            Embedding the music of top 21 bands is a masterstroke. It helps in spreading the music culture and make it extremely easier for the audience to discover new music and keeps the them in the same tab! (Great and Profitable UX!)  
+        </p>
+
+
+        <p>
+            The narrative of reaching the ‘Centre Stage’ and making it big is clearly highlighted by the form used. But the pink 21 dots have the affordance of click that is absent. They could have added the Band’s name on the hower and their music played on click.   
+        </p>
+
+        <p>
+            The second view is the good old timeline following the advice of Ben Shneiderman, telling us exactly what it should be how long does it take to make it big so that you plan accordingly! 
+        </p>
+
+        <p>
+            Till now everything was great, realising article is over I decided to write the review, only on a closer look I realised that, that illegible and almost hyperlink look alike isn’t the footer but a third view highlighting all the bands that were somehow surviving!
+        </p>
+
+        <p>
+            It’s very empathetic of them to mention these bands bit the way it is done can be rethought. That absurd search bar serves as an hinderance to any casual reader. 
+        </p>
+        <img src="sb.png" alt="Lights" style="width:100%">
+        <p>
+            Overall, that you so much for making this. Russel and Dan did a great job in telling us something that we needed to know but didn’t know.
+        </p>
+        
+        
+        <p>
+            A food for thought for the readers, instead of the dots reaching the ‘centre stage’ what would have happened if they were going out and reaching new heights? Would that have been a better visual? 
+
+        </p>
+
+        <p>
+            <a href= "https://pudding.cool/2017/01/making-it-big/">Link to the Visualization.</a>
+        </p>
+
+
+    </main>
+
+    <footer>
+        <br><br>
+        <a href="http://http://www.instagram.com/kirti_vardhan">
+        <img width="30" height="30" src="instagram.svg"> 
+        </a>
+
+        &nbsp &nbsp;
+
+        <a href="https://www.facebook.com/Kirti7ardhanRathore">
+        <img width="30" height="30" src="facebook.svg"> 
+        </a>
+
+        &nbsp &nbsp;
+
+        <a href="https://twitter.com/Kirti7ardhan">
+        <img width="30" height="30" src="twitter.svg"> 
+        </a>
+        
+    </footer>
+
+
+
+</body>
+</html>
+    

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="format.css">
+    <script>
+        document.onmouseover = function (e) {
+            var selectedDiv = document.getElementsByClassName("bg");
+            if (e.target.id === "p1") {
+                selectedDiv[0].style.backgroundImage = 'url("develop.png")';
+            }else if (e.target.id === "p2") {
+                selectedDiv[0].style.backgroundImage = 'url("as.jpg")';
+            }
+	    else if (e.target.id === "p3") {
+                selectedDiv[0].style.backgroundImage = 'url("kvr.jpg")';
+            }
+	    else if (e.target.id === "p4") {
+                selectedDiv[0].style.backgroundImage = 'url("av.jpg")';
+            }
+	    else{
+                selectedDiv[0].style.backgroundImage = 'url("Main.png")';
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="bg"></div>
+
+    <p1 id="p1">Development</p1><br>
+    <p2 id="p2">Anita Shekhawat</p2><br>
+    <p3 id="p3">Kirti Vardhan</p3><br>
+    <p4 id="p4">Aditya Vardhan</p4><br>
+
+</body>
+
+</html>

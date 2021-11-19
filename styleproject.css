@@ -121,4 +121,30 @@ img {
   }
   
 
+  .italic-quote {
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+  
+    text-align: center;
+    letter-spacing: -0.022em;
 
+    margin: 0 auto;
+    max-width: 80ch;
+    line-height: 1.45;
+    
+  }
+
+  .features {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    margin-bottom: 27px;
+    text-align: center;
+  }

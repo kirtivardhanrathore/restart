@@ -158,7 +158,7 @@
         <p>
         Manually downloaded all the speeches from the portal of Press Information Bureau
         <br>
-        Consolidated hindi speeches are available <a href="https://pib.gov.in/amritmahotsav/allspeeches.aspx">here</a>. 
+        Consolidated Hindi speeches are available <a href="https://pib.gov.in/amritmahotsav/allspeeches.aspx">here</a>. 
         <br>   
         English translations were taken from the archives of PMO, from <a href="https://archive.pib.gov.in/archive2/">here</a>.
         </p>
@@ -175,13 +175,13 @@
         <a href=https://observablehq.com/@kv/basic-visualisation>Observable</a>, 
         Microsoft Excel
         <br><br>
-        The text files were read in Google Colab notbook and <a href="https://github.com/cjhutto/vaderSentiment">Vader Lexicon Sentiment Analysis</a> was performed on all the speeches. The data was then charted out in Observable.  
+        The text files were read in Google Colab notebook and <a href="https://github.com/cjhutto/vaderSentiment">Vader Lexicon Sentiment Analysis</a> was performed on all the speeches. The data was then charted out in Observable.  
         <br><br>
         The next step was to count the number of words in the speeches but before it the speeches were cleaned and new files were made. 
         <br><br>
         The new files, had no special characters and no stop words. The stop words were removed using nltk.stopwords. 
         <br><br>
-        Next step was to bin cetain words together to analyse them in group. A list of 20 topics was prepared after reading two speeches manually to know the topics that are mostly talked about. 
+        Next step was to bin certain words together to analyse them in group. A list of 20 topics was prepared after reading two speeches manually to know the topics that are mostly talked about. 
         </p><br>
         <img src="Bin.png" alt="20 Topics and Sub Topics" style="width:100%">
         <br><br><br>
@@ -201,16 +201,45 @@
         
         <p id="3"><b>Narrative Structure</b></p>
         <p><br>
-        The idea of India and the issues talked about is very subjective. The development I perceive migh not be percieved as development by someone else. So not sticking to a narrative and just stating what was said in a speech looked the best way out. Readers are allowed to browse through ups and downs of the topics and desice for themsleves, "How Far have we come?". 
+        The idea of India and the issues talked about is very subjective. The development I perceive might not be perceived as development by someone else. So not sticking to a narrative and just stating what was said in a speech looked the best way out. Readers are allowed to browse through ups and downs of the topics and decide for themselves, "How Far have we come?". 
         </p><br><br>
 
-        <p id="4"><b>Concept Sketches</b></p><br>
-        <img src="SearchLines.png" alt="Sort and Filter in Excel" style="width:100%">
-        <br><br><br>
-        
+        <p id="4"><b>Concept Sketches</b></p> 
         <p><br>
-        A modification of Sankey Diagram and Stacked bar chart was narrowed down but while prototyping and with current coding skills the desired output wasn't achieved.
-        </p>
+            A modification of Sankey Diagram and Stacked bar chart was narrowed down but while prototyping and with current coding skills the desired output wasn't achieved.
+            </p><br><br>
+        <img src="Sketch1.png" alt="Sketch 1" style="width:100%">
+        <img src="Sketch2.png" alt="Sketch 2" style="width:100%">
+        <br>
+        
+        
+
+        <p id="5"><b>Prototyping</b></p>
+        <p><br>
+            Prototyping was done in Figma and then embedded in HTML. The final presentation was then stitched together with HTML and CSS.
+        </p><br><br>
+        <img src="Proto1.png" alt="Figma Prototype Screenshot" style="width:100%">
+        <br>
+        <img src="Proto2.png" alt="Figma Prototype Screenshot" style="width:100%">
+
+        <br><br>
+        <p><b>Way Forward</b></p>
+        <p><br>
+           This Data visualization was made during 2 Week Course (and a few extended deadlines) at NID under the guidance of Amit Kapoor. 
+           <br> <br>
+           There was a lot to learn starting from Python to JS and from HTML to CSS. But there is still a long way to go. The second phase include, handling of arrays and eliminating the need of Microsoft Excel and thereby creating the chart using code. Further Topic Analysis for every cell also needs to be done, wherein hovering over a particular cell tells you all the instances where it was talked about.
+           <br> <br>
+           In additon to this, so far it is assumed that topic with a higher word count was more important than the topic with a lower word count. The length at which a particular topic was talked about is ignored for a while. Length will be incorporated once Topic Analysis is done. 
+           <br> <br>
+           Lastly, eliminating the Figma black box!
+           <br> <br>
+           Thank You Amit for your Patience and Guidance.
+
+        <br>
+        <br>  
+        <h2>***</h2>
+        <br>
+         
         
 
 
